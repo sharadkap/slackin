@@ -22,6 +22,8 @@ First, [download `now`](https://zeit.co/download). Then, run the following comma
 $ now -e SLACK_API_TOKEN="<token>" -e SLACK_SUBDOMAIN="<team-name>" now-examples/slackin
 ```
 
+> Example: https://now-examples-slackin.now.sh/
+
 ## License
 
 MIT

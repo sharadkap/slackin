@@ -1,0 +1,17 @@
+{
+  "name": "now-examples-slackin",
+  "version": "1.0.0",
+  "description": "Deploy `rauchg/slackin` to Now in one command",
+  "scripts": {
+    "start": "slackin --coc \"$SLACK_COC\" --channels \"$SLACK_CHANNELS\" $SLACK_SUBDOMAIN $SLACK_API_TOKEN"
+  },
+  "author": "Nathan Rajlich <nate@zeit.co>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/now-examples/slackin.git"
+  },
+  "dependencies": {
+    "slackin": "^0.13.0"
+  }
+}

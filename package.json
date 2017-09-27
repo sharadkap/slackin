@@ -13,5 +13,11 @@
   },
   "dependencies": {
     "slackin": "^0.13.0"
+  },
+  "now": {
+    "env": [
+      "SLACK_SUBDOMAIN",
+      "SLACK_API_TOKEN"
+    ]
   }
 }
